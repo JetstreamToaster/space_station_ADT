@@ -101,7 +101,7 @@
   productEntity: ClothingHandsGlovesNorthStar
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Telecrystal: 3 # ADT-Tweak 4>3 те же 50% 
   cost:
     Telecrystal: 6 # ADT-Tweak 8>6
   categories:
@@ -367,7 +367,7 @@
   discountDownTo:
     Telecrystal: 8
   cost:
-    Telecrystal: 12 #you're buying bulk so its a 25% discount, so no additional random discount over it
+    Telecrystal: 10 # ADT-Tweak 12>10 #you're buying bulk so its a 25% discount, so no additional random discount over it
   categories:
   - UplinkExplosives
 
@@ -475,9 +475,9 @@
   productEntity: ElectricalDisruptionKit
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Telecrystal: 2 # ADT-Tweak 4>2
   cost:
-    Telecrystal: 6
+    Telecrystal: 5 # ADT-Tweak 6>5
   categories:
     - UplinkExplosives
 
@@ -694,9 +694,9 @@
   productEntity: StimkitFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 6  # ADT-Tweak 8>6
+    Telecrystal: 4  # ADT-Tweak 8>4
   cost:
-    Telecrystal: 10 # ADT-Tweak 12>10
+    Telecrystal: 7 # ADT-Tweak 12>7
   categories:
   - UplinkChemicals
 
@@ -929,7 +929,7 @@
   productEntity: BorgModuleSyndicateWeapon
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Telecrystal: 2 # ADT-Tweak 3>2 
   cost:
     Telecrystal: 4 # ADT-Tweak 5>4
   categories:
@@ -945,7 +945,7 @@
   discountDownTo:
     Telecrystal: 2
   cost:
-    Telecrystal: 4
+    Telecrystal: 3 # ADT-Tweak 4>3
   categories:
     - UplinkDisruption
 
@@ -1055,9 +1055,9 @@
   productEntity: AntimovCircuitBoard
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 20
+    Telecrystal: 12 # ADT-Tweak 20>12
   cost:
-    Telecrystal: 24
+    Telecrystal: 18 # ADT-Tweak 24>18
   categories:
   - UplinkDisruption
   conditions:
@@ -1111,9 +1111,9 @@
   productEntity: SingularityBeacon
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Telecrystal: 3 # ADT-Tweak 4>3
   cost:
-    Telecrystal: 12
+    Telecrystal: 8 # ADT-Tweak 12>8
   categories:
     - UplinkDisruption
 
@@ -1244,9 +1244,9 @@
   productEntity: DehydratedSpaceCarp
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Telecrystal: 0 # ADT-Tweak 1>0
   cost:
-    Telecrystal: 2
+    Telecrystal: 1 # ADT-Tweak 2>1
   categories:
   - UplinkAllies
   conditions:
@@ -1314,7 +1314,7 @@
   discountDownTo:
     Telecrystal: 2 # ADT-Tweak 3>2
   cost:
-    Telecrystal: 4 # ADT-Tweak 5>4
+    Telecrystal: 3 # ADT-Tweak 5>3
   categories:
     - UplinkImplants
 
@@ -1421,7 +1421,7 @@
   icon: { sprite: /Textures/Objects/Magic/magicactions.rsi, state: gib }
   productEntity: DeathAcidifierImplanter
   cost:
-    Telecrystal: 4
+    Telecrystal: 2 # ADT-Tweak 4>2
   categories:
     - UplinkImplants
   conditions:
@@ -1565,7 +1565,7 @@
   productEntity: ClothingHandsChameleonThief
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Telecrystal: 2 # ADT-Tweak 3>2
   cost:
     Telecrystal: 3 # ADT-Tweak 4>3
   categories:
@@ -1708,7 +1708,7 @@
   description: uplink-clothing-eyes-hud-syndicate-desc
   productEntity: ClothingEyesHudSyndicate
   cost:
-    Telecrystal: 2
+    Telecrystal: 1 # ADT-Tweak 2>1
   categories:
     - UplinkWearables
   conditions:
@@ -1733,7 +1733,7 @@
   description: uplink-backpack-syndicate-desc
   productEntity: ClothingBackpackSyndicate
   cost:
-    Telecrystal: 2
+    Telecrystal: 1 # ADT-Tweak 2>1 натнашец сборке синдимешок не замедляет 
   categories:
     - UplinkWearables
 
@@ -1766,9 +1766,9 @@
   productEntity: RevolverCapGun
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Telecrystal: 0 # ADT-Tweak2>0
   cost:
-    Telecrystal: 3 # ADT-Tweak 4>3
+    Telecrystal: 2 # ADT-Tweak 4>2
   categories:
   - UplinkPointless
 
@@ -1779,9 +1779,9 @@
   productEntity: RubberStampSyndicate
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Telecrystal: 0 # ADT-Tweak 1>0
   cost:
-    Telecrystal: 2
+    Telecrystal: 1 # ADT-Tweak 2>1
   categories:
   - UplinkPointless
 
@@ -1791,7 +1791,7 @@
   description: uplink-cat-ears-desc
   productEntity: ClothingHeadHatCatEars
   cost:
-    Telecrystal: 10 # ADT-Tweak 26>10
+    Telecrystal: 4 # ADT-Tweak 26>4 у нас есть целый набор кошкогорничной за немного большую цену
   categories:
   - UplinkPointless
 
@@ -1821,7 +1821,7 @@
   description: uplink-costume-pyjama-desc
   productEntity: ClothingBackpackDuffelSyndicatePyjamaBundle
   cost:
-    Telecrystal: 4
+    Telecrystal: 2 # ADT-Tweak 4>2
   categories:
   - UplinkPointless
 
@@ -1915,9 +1915,9 @@
   productEntity: GatfruitSeeds
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Telecrystal: 2 # ADT-Tweak 3>2
   cost:
-    Telecrystal: 5 # ADT-Tweak 6>5
+    Telecrystal: 4 # ADT-Tweak 6>4
   categories:
   - UplinkJob
   conditions:
@@ -1932,7 +1932,7 @@
   productEntity: ClothingHandsGlovesBoxingRigged
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Telecrystal: 2 # ADT-Tweak 3>2
   cost:
     Telecrystal: 4 # ADT-Tweak 6>4
   categories:
@@ -2004,9 +2004,9 @@
   productEntity: RevolverCapGunFake
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 4 # ADT-Tweak
+    Telecrystal: 2 # ADT-Tweak
   cost:
-    Telecrystal: 8 # ADT-Tweak
+    Telecrystal: 5 # ADT-Tweak
   categories:
   - UplinkJob
   conditions:
@@ -2040,9 +2040,9 @@
   productEntity: ClusterBananaPeel
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Telecrystal: 2 # ADT-Tweak 3>2
   cost:
-    Telecrystal: 6
+    Telecrystal: 4 # ADT-Tweak 6>4
   categories:
   - UplinkJob
   conditions:
@@ -2074,10 +2074,10 @@
   description: uplink-hot-potato-desc
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Telecrystal: 1 # ADT-Tweak 2>1
   productEntity: HotPotato
   cost:
-    Telecrystal: 3 # ADT-Tweak 4>3
+    Telecrystal: 2 # ADT-Tweak 4>2
   categories:
   - UplinkJob
   conditions:
@@ -2097,7 +2097,7 @@
   discountDownTo:
     Telecrystal: 2
   cost:
-    Telecrystal: 4
+    Telecrystal: 3 # ADT-Tweak 4>3
   categories:
   - UplinkJob
   conditions:
@@ -2112,9 +2112,9 @@
   productEntity: WetFloorSignMineExplosive
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Telecrystal: 1 # ADT-Tweak 2>1
   cost:
-    Telecrystal: 4 # ADT-Tweak 5>4
+    Telecrystal: 2 # ADT-Tweak 5>2
   categories:
   - UplinkJob
   conditions:
@@ -2155,9 +2155,9 @@
   productEntity: CaneSheathFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Telecrystal: 1 # ADT-Tweak 2>1
   cost:
-    Telecrystal: 4 # ADT-Tweak 5>4
+    Telecrystal: 2 # ADT-Tweak 5>2
   categories:
   - UplinkJob
   conditions:
